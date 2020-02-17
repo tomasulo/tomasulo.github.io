@@ -5,7 +5,8 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-a,a:visited {
+a,
+a:visited {
   color: inherit;
 
   &:hover {
@@ -40,16 +41,17 @@ dl {
   }
 }
 
-code, .highlight {
-    background: #edf2f7;
-    overflow: auto;
+code,
+.highlight {
+  background: #edf2f7;
+  overflow: auto;
 }
 code {
-	word-break: break-all;
+  word-break: break-all;
 }
 
 code {
-	padding: 0.1rem 0.3rem;
+  padding: 0.1rem 0.3rem;
 }
 
 pre {
