@@ -1,5 +1,6 @@
 site: Thomas Kieffer - Software Engineer
-url: https://tomasulo.github.io
+url: tomasulo.github.io
+baseurl: /blog
 author:
   name: Thomas Kieffer
   email: tomasulo@tuta.io
