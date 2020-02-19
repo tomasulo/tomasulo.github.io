@@ -3,4 +3,10 @@ layout: page
 title: About
 ---
 
-## The blog of a software engineer
+## About Me
+
+- [StackOverflow](https://stackoverflow.com/users/3636822/tomasulo)
+- [GitHub](https://github.com/tomasulo)
+- [Twitter](https://twitter.com/t_kieffer)
+- [Xing](https://xing.com/profile/Thomas_Kieffer2)
+- [LinkedIn]()
