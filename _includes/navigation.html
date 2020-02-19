@@ -1,11 +1,12 @@
 <nav role="navigation">
-  <div style="display: flex; justify-content: space-around">
-  <h3>{{ site.title }}</h3>
-  <ul>
-    <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
-    <li><a href="/tags" {% if page.url == "/tags" %}class="active"{% endif %}>Tags</a></li>
-    <li><a href="/about" {% if page.url == "/about" %}class="active"{% endif %}>About</a></li>
-    <li><a href="/atom.xml">Feed</a></li>
-  </ul>
+  <div style="display: flex; justify-content: space-evenly; align-items: center;">
+    <img src="favicon.png">
+    <h3>{{ site.title }}</h3>
+    <ul>
+      <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+      <li><a href="/tags" {% if page.url == "/tags" %}class="active"{% endif %}>Tags</a></li>
+      <li><a href="/about" {% if page.url == "/about" %}class="active"{% endif %}>About</a></li>
+      <li><a href="/atom.xml">Feed</a></li>
+    </ul>
 </div>
 </nav>
