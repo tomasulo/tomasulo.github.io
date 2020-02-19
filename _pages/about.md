@@ -9,4 +9,4 @@ title: About
 - [GitHub](https://github.com/tomasulo)
 - [Twitter](https://twitter.com/t_kieffer)
 - [Xing](https://xing.com/profile/Thomas_Kieffer2)
-- [LinkedIn]()
+- [LinkedIn](https://www.linkedin.com/in/thomas-kieffer-bb6708a8/)
