@@ -1,29 +1,23 @@
-site: Gray - Single column blog and portfolio Jekyll theme
-url: # url
-author: # your name
+site: Thomas Kieffer - Software Engineer
+url: https://tomasulo.github.io
 author:
-  name: # your name
-  email: # your email 
-  url: # url
-  avatar: 
-title: Gray - Single column blog and portfolio Jekyll theme
-description: Gray - Single column blog and portfolio Jekyll theme
-logo: 
-image: 
-twitter: # twitter 
-twitter:
-  username: # twitter
-  creator: # twitter
-  card: summary
+  name: Thomas Kieffer
+  email: tomasulo@tuta.io
+  avatar:
+title: Thomas Kieffer - Software Engineer
+description: My personal blog
+logo:
+image:
+twitter: t_kieffer
 social:
-  name: Ronalds Vilcins
+  name: Thomas Kieffer
   links:
-    - https://twitter.com/example
-    - https://www.dribbble.com/example
-    - https://github.com/example
-    - https://codepen.io/example
-  
-repository: ronv/website
+    - https://stackoverflow.com/users/3636822/tomasulo
+    - https://github.com/tomasulo
+    - https://twitter.com/t_kieffer
+    - https://xing.com/profile/Thomas_Kieffer2
+
+repository: tomasulo/blog
 
 permalink: pretty
 
@@ -31,17 +25,17 @@ disqus:
   name: "your username" # required
   noscript: "Please enable JavaScript to view the comments powered by Disqus." # optional
 
-paginate:            1000
-paginate_path:       "/page:num/"
-baseurl:             ""
-  
+paginate: 1000
+paginate_path: "/page:num/"
+baseurl: ""
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
 
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+  sass_dir: _sass
+  style: :compressed
 
 plugins:
   - jekyll-paginate
@@ -63,32 +57,28 @@ collections:
   art:
     output: true
     permalink: /art/:slug
-  
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-  -
-    scope:
+  - scope:
       path: ""
       type: "projects"
     values:
-      layout: "project"     
-      
+      layout: "project"
+
   - scope:
       path: "assets/images"
     values:
